@@ -2,3 +2,19 @@ node_modules
 dist
 *.log
 .DS_Store
+
+# 環境変数・秘密情報（将来、GitLab API連携などで使うとき用）
+.env
+.env.*
+!.env.example
+
+# 検査結果のZIP（ログやソース抜粋、スクリーンショットなどの機密情報を含みうる）
+*.zip
+
+# Viteのキャッシュ、エディタ、ツール関連
+.vite
+coverage
+.idea
+.vscode/*
+!.vscode/extensions.json
+

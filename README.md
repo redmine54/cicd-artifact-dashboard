@@ -18,8 +18,9 @@ CVE・ライセンス・SBOM・SAST・Secret・E2E・ログなどの検査結果
 
 ```bash
 npm install
-npm run dev      # http://localhost:5173 で起動
+npm run dev      
 ```
+ http://localhost:5173 で起動
 
 その他のコマンド:
 
